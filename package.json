@@ -1,0 +1,24 @@
+{
+  "name": "peters-pool-services",
+  "version": "1.0.0",
+  "description": "Website for Peter's pool services, a family owned service business, dedicated to sanitize and maintain pools, offering a variety of services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pool",
+    "clean",
+    "sanitize",
+    "maintenance",
+    "safety",
+    "water",
+    "service",
+    "family-owned"
+  ],
+  "author": "Ivon Badra",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
