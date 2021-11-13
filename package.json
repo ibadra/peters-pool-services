@@ -2,8 +2,10 @@
   "name": "peters-pool-services",
   "version": "1.0.0",
   "description": "Website for Peter's pool services, a family owned service business, dedicated to sanitize and maintain pools, offering a variety of services.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,5 +22,8 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
