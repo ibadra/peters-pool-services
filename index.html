@@ -12,6 +12,8 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
     <title>Peter's Pool Services</title>
   </head>
   <body>
@@ -19,7 +21,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Peter's Pool Services</a>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler ml-auto"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNavAltMarkup"
@@ -31,15 +33,30 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#"
-            >Home <span class="sr-only">(current)</span></a
-          >
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+          <a class="nav-item nav-link" href="#">About us</a>
+          <a class="nav-item nav-link" href="#">Services</a>
+          <a class="nav-item nav-link" href="#">Testimonials</a>
+          <a class="nav-item nav-link" href="#">Gallery</a>
         </div>
       </div>
+      <button class="btn btn-lg btn-primary">Quote</button>
     </nav>
+    <header>
+      <!-- Hero Header -->
+      <div class="overlay"></div>
+
+      <video
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+        width="100%"
+        src="https://storage.coverr.co/videos/1iAUZgFIhjb9fOk8cEC1DkyEiP9xBez6?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjM3MTgyMzU4fQ.gMAF3zLtRRDsU7QpXKaiCC6xs_WQoPcVMyNIWqwdnrg"
+      >
+        />
+      </video>
+      <h1 class="title">Peter's Pool Services</h1>
+    </header>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
