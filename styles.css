@@ -36,3 +36,8 @@ header .overlay {
     z-index: 1;
   }
 }
+
+.navbar {
+  background-color: #3db2ff;
+  /* font: 1.2rem "Mulish", sans-serif; */
+}
