@@ -6,6 +6,11 @@ h1.title {
   color: white;
 }
 
+h2,
+a.nav-item {
+  font-family: "Bellota Text", cursive;
+}
+
 header .overlay {
   position: absolute;
   top: 10%;
@@ -39,5 +44,9 @@ header .overlay {
 
 .navbar {
   background-color: #3db2ff;
-  /* font: 1.2rem "Mulish", sans-serif; */
+}
+
+a img:not(.logo) {
+  width: 24%;
+  margin: 0.2rem;
 }
