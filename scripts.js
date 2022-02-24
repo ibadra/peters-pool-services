@@ -15,8 +15,8 @@ window.onscroll = function () {
     }
   } else {
     if (
-      document.body.scrollTop >= 280 ||
-      document.documentElement.scrollTop >= 280
+      document.body.scrollTop >= 200 ||
+      document.documentElement.scrollTop >= 200
     ) {
       myNav.classList.add("scroll");
     } else {
