@@ -51,10 +51,17 @@ header .overlay {
 
 .navbar {
   background-color: #88e0ef;
-  position: fixed;
-  z-index: 1000;
+  /* position: fixed;
+  z-index: 1000; */
   width: 100%;
   transition: all 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    position: fixed;
+    z-index: 1000;
+  }
 }
 
 .scroll {
