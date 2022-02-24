@@ -50,10 +50,15 @@ header .overlay {
 }
 
 .navbar {
-  background-color: #3db2ff;
-  position: absolute;
+  background-color: #88e0ef;
+  position: fixed;
   z-index: 1000;
   width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.scroll {
+  background-color: #3db2ff;
 }
 
 a img:not(.logo) {
