@@ -178,11 +178,11 @@ a:hover {
     width: 90%;
   }
 
-  .center-cards {
+  /* .center-cards {
     margin: auto;
     padding: 1rem;
     width: 75%;
-  }
+  } */
 
   a img:not(.logo) {
     width: 30%;
