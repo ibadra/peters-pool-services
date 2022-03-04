@@ -24,7 +24,7 @@ h2 {
 
 h2,
 a.nav-item,
-a,
+a:not(.web-developer),
 button,
 p.card-text {
   font-family: "Nunito", sans-serif;
@@ -109,6 +109,14 @@ a img:not(.logo) {
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
 
+.container.google-reviews {
+  text-align: center;
+}
+
+h2.google-reviews-text {
+  margin: 5vh 0;
+  font-size: 3rem;
+}
 .fa-phone,
 .fa-whatsapp {
   display: block;
@@ -117,12 +125,12 @@ a img:not(.logo) {
 }
 
 .fa-phone {
-  margin-bottom: 7vh;
-  color: #abebe6;
+  margin-bottom: 10vh;
+  color: #35858b;
 }
 
 .fa-phone:hover {
-  color: #35858b;
+  color: #abebe6;
 }
 
 .fa-whatsapp {
@@ -148,4 +156,49 @@ a:hover {
     display: inline;
     margin-right: 10vw;
   }
+}
+
+#icon {
+  width: 2rem;
+  margin-right: 1vw;
+}
+
+#icon.nextdoor {
+  width: 2.6rem;
+}
+
+#footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .center {
+    margin: auto;
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .center-cards {
+    margin: auto;
+    padding: 1rem;
+    width: 75%;
+  }
+
+  a img:not(.logo) {
+    width: 30%;
+    margin: 0.2rem;
+  }
+}
+
+.web-developer,
+.web-developer:hover {
+  text-decoration: underline;
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.fa.fa-phone.phone-contact {
+  display: inline;
+  color: inherit;
+  margin-right: 0;
 }

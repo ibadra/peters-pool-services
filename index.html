@@ -108,7 +108,7 @@
     </section>
     <section id="services" class="container">
       <h2>Services</h2>
-      <div class="container">
+      <div class="container center center-cards">
         <div class="row">
           <div class="col">
             <div class="card border-info" style="width: 18rem">
@@ -143,25 +143,37 @@
     </section>
     <section class="container align-items-center" id="testimonials">
       <h2>Testimonials</h2>
-      <div class="row">
+      <div class="container">
         <img
           class="review-img"
           src="img/reviews.png"
           alt="5 star review pool services central florida orlando winter garden apopka"
         />
       </div>
-      <div class="row">
+      <div class="container google-reviews">
         <a
-          class="btn btn-lg btn-info"
           href="https://www.google.com/search?q=peters+pool+services&rlz=1C1VDKB_enUS935US935&oq=peters+pool+services&aqs=chrome.0.69i59j0i22i30i457j69i60l3.7974j0j15&sourceid=chrome&ie=UTF-8"
         >
-          See more reviews
+          <img
+            src="https://ps.w.org/wp-reviews-plugin-for-google/assets/icon-256x256.png?rev=2660148"
+            alt="google reviews verified business 5 stars"
+          />
+          <h2 class="google-reviews-text">
+            We are rated 5 stars in Google reviews!
+          </h2>
+        </a>
+        <a
+          href="https://www.google.com/search?q=peters+pool+services&rlz=1C1VDKB_enUS935US935&oq=peters+pool+services&aqs=chrome.0.69i59j0i22i30i457j69i60l3.7974j0j15&sourceid=chrome&ie=UTF-8"
+          class="btn btn-lg btn-info"
+        >
+          Read more reviews
         </a>
       </div>
     </section>
 
     <section class="container" id="gallery">
-      <div id="instafeed-container"></div>
+      <h2>Gallery</h2>
+      <div id="instafeed-container" class="center"></div>
       <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
       <script type="text/javascript">
         var userFeed = new Instafeed({
@@ -177,7 +189,7 @@
     <section class="container" id="contact">
       <h2>Request a quote</h2>
       <div class="row">
-        <div class="col-lg-1 fa-5x order-lg-last">
+        <div class="col-lg-1 fa-5x order-lg-last offset-lg-2 center">
           <a href="tel:14075306416" class="contact-link"
             ><i class="fa fa-phone"></i
           ></a>
@@ -218,20 +230,38 @@
       </div>
     </section>
     <section class="container" id="footer">
-      <a
-        href="https://www.instagram.com/peterspoolservices/"
-        class="contact-link"
-        ><i class="fa fa-instagram fa-5x"></i
-      ></a>
-      <a href="https://www.facebook.com/peterspoolservices/"
-        ><i class="fa fa-facebook fa-lg"></i
-      ></a>
-      <a href="https://nextdoor.com/pages/peters-pool-services-llc-apopka-fl/"
+      <a href="https://www.instagram.com/peterspoolservices/" target="_blank"
         ><img
-          style="width: 2rem"
-          src="https://cdn.iconscout.com/icon/free/png-256/nextdoor-3089478-2567430.png"
-          alt="nextdoor social media"
+          id="icon"
+          src="https://seeklogo.com/images/I/instagram-logo-041EABACE1-seeklogo.com.png"
+          alt="instagram social media"
       /></a>
+      <a href="https://www.facebook.com/peterspoolservices/" target="_blank"
+        ><img
+          id="icon"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png"
+          alt="facebook social media"
+      /></a>
+      <a
+        href="https://nextdoor.com/pages/peters-pool-services-llc-apopka-fl/"
+        target="_blank"
+        ><img
+          id="icon"
+          class="nextdoor"
+          src="https://cdn.iconscout.com/icon/free/png-256/nextdoor-3089478-2567430.png"
+          alt="nextdoor social media" /></a
+      ><br />
+      <a href="tel:14075306416" class="phone-contact"
+        ><i class="fa fa-phone phone-contact"></i> 407-530-6416</a
+      >
+      <br />
+      <br />
+      ©2022 Peter's Pool Services
+      <p>
+        <a class="web-developer" href="https://www.ivon-badra.com/">
+          Website made by Ivon Badra</a
+        >
+      </p>
     </section>
     <!-- build:js js/main.js -->
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
