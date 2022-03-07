@@ -8,13 +8,13 @@ body {
   font-size: 1.1rem;
 }
 
-h1.title {
+/* h1.title {
   z-index: 1000;
   position: absolute;
   top: 50%;
   left: 38%;
   color: white;
-}
+} */
 
 h2 {
   margin-bottom: 10vh;
@@ -35,7 +35,7 @@ a.nav-item {
   margin-right: 1vw;
 }
 
-header .overlay {
+/* header .overlay {
   position: absolute;
   top: 10%;
   left: 0;
@@ -44,9 +44,9 @@ header .overlay {
   background-color: black;
   opacity: 0.2;
   z-index: 1;
-}
+} */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/* @media screen and (min-width: 768px) and (max-width: 1024px) {
   h1.title {
     z-index: 1000;
     position: absolute;
@@ -64,7 +64,7 @@ header .overlay {
     opacity: 0.2;
     z-index: 1;
   }
-}
+} */
 
 .navbar {
   background-color: #88e0ef;
@@ -74,12 +74,12 @@ header .overlay {
   transition: all 0.5s ease-in-out;
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .navbar {
     position: fixed;
     z-index: 1000;
   }
-}
+} */
 
 .scroll {
   background-color: #3db2ff;
@@ -97,6 +97,10 @@ a img:not(.logo) {
 .profile-img,
 .review-img {
   max-width: 100%;
+}
+
+.profile-img {
+  border-radius: 50%;
 }
 
 .about-us-description {
@@ -201,4 +205,38 @@ a:hover {
   display: inline;
   color: inherit;
   margin-right: 0;
+}
+
+.main-pic {
+  border-radius: 50%;
+  width: 70%;
+  z-index: 10;
+}
+
+.main-logo {
+  border-radius: 10% 30% 50% 70%;
+  width: 25%;
+  position: absolute;
+  top: 26%;
+  right: 13%;
+  z-index: 100;
+}
+
+@media screen and (max-width: 767px) {
+  .main-pic {
+    position: relative;
+    /* top: 13vh;
+    left: 14%; */
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .main-logo {
+    border-radius: 50%;
+    width: 20%;
+    position: absolute;
+    top: 85%;
+    right: 1%;
+    z-index: 100;
+  }
 }

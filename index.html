@@ -7,6 +7,18 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
+    <meta
+      name="description"
+      content="We are a family-owned business, committed to Meet and Exceed your Expectations. We serve the greater Orlando area. Contact us to schedule your FREE consultation today! Between our services are poll maintenance, pool repairs and pressure washing."
+    />
+    <meta property="og:image" content="./img/logo.jpeg" />
+    <meta
+      property="og:description"
+      content="Peter's Pool Services: We are a family-owned business, committed to Meet and Exceed your Expectations. We serve the greater Orlando area. Contact us to schedule your FREE consultation today! Between our services are poll maintenance, pool repairs and pressure washing."
+    />
+    <meta property="og:title" content="Peter's Pool Services" />
+    <title>Peter's Pool Services</title>
+    <link rel="icon" href="./img/logo.jpeg" type="image/x-icon" />
     <!-- build:css css/main.css -->
     <link
       rel="stylesheet"
@@ -32,7 +44,6 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=PT+Serif&display=swap"
       rel="stylesheet"
     />
-    <title>Peter's Pool Services</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -72,7 +83,7 @@
       <!-- Hero Header -->
       <!-- <div class="overlay"></div> THIS IS THE OVERLAY!!!!!-->
 
-      <video
+      <!-- <video
         playsinline="playsinline"
         autoplay="autoplay"
         muted="muted"
@@ -81,16 +92,24 @@
         src="/img/video.MP4"
       >
         > />
-      </video>
+      </video> -->
       <!-- <h1 class="title">Peter's Pool Services</h1> -->
+      <!-- <img
+        style="width: 100%"
+        src="/img/main-picture.png"
+        alt="pool maintenance repair peters pool services pedro figallo orlando central florida"
+      /> -->
+      <img class="main-pic" src="/img/pic.png" alt="" />
+      <img class="main-logo" src="/img/main-logo.png" alt="" />
     </header>
+
     <section id="about" class="container">
       <h2>About us</h2>
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-6">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/1085/1085421.png"
+              src="/img/profile-picture.jpg"
               alt="peters pool services pedro figallo orlando central florida"
               class="profile-img"
             />
@@ -198,31 +217,46 @@
           ></a>
         </div>
         <div class="col-lg-8">
-          <form>
+          <form action="https://formspree.io/f/xayvjdaj" method="POST">
             <div class="mb-3">
               <label for="name" class="form-label">Name:</label>
               <input
                 type="text"
                 class="form-control"
                 id="name"
+                name="name"
                 aria-describedby="name"
               />
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address:</label>
-              <input type="email" class="form-control" id="email" />
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email address"
+              />
             </div>
             <div class="mb-3">
               <label class="form-label" for="phone">Phone number:</label>
-              <input type="tel" class="form-control" id="phone" />
+              <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                name="phone number"
+              />
             </div>
             <div class="mb-3">
               <label class="form-label" for="city">City:</label>
-              <input type="text" class="form-control" id="city" />
+              <input type="text" class="form-control" id="city" name="city" />
             </div>
             <div class="mb-3">
               <label class="form-label" for="message">Your message:</label>
-              <textarea class="form-control" id="message"></textarea>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+              ></textarea>
             </div>
             <button type="submit" class="btn btn-info btn-lg">Submit</button>
           </form>
