@@ -219,7 +219,7 @@ a:hover {
     width: 75%;
   } */
 
-  a img:not(.logo) {
+  a img:not(.logo):not(.developer) {
     width: 30%;
     margin: 0.2rem;
   }
