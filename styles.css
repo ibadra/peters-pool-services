@@ -85,22 +85,48 @@ a.nav-item {
   background-color: #3db2ff;
 }
 
-a img:not(.logo) {
-  width: 24%;
-  margin: 0.2rem;
+.main-pic {
+  border-radius: 50%;
+  width: 70%;
+  z-index: 10;
+}
+
+.main-logo {
+  border-radius: 10% 30% 50% 70%;
+  width: 25%;
+  position: absolute;
+  top: 26%;
+  right: 13%;
+  z-index: 100;
+}
+
+@media screen and (max-width: 767px) {
+  .main-pic {
+    position: relative;
+    /* top: 13vh;
+    left: 14%; */
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .main-logo {
+    border-radius: 50%;
+    width: 20%;
+    position: absolute;
+    top: 85%;
+    right: 1%;
+    z-index: 100;
+  }
 }
 
 .profile-img {
   margin-bottom: 6vh;
+  border-radius: 50%;
 }
 
 .profile-img,
 .review-img {
   max-width: 100%;
-}
-
-.profile-img {
-  border-radius: 50%;
 }
 
 .about-us-description {
@@ -111,6 +137,11 @@ a img:not(.logo) {
 .card {
   box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+a img:not(.logo):not(.developer) {
+  width: 24%;
+  margin: 0.2rem;
 }
 
 .container.google-reviews {
@@ -207,36 +238,6 @@ a:hover {
   margin-right: 0;
 }
 
-.main-pic {
-  border-radius: 50%;
-  width: 70%;
-  z-index: 10;
-}
-
-.main-logo {
-  border-radius: 10% 30% 50% 70%;
-  width: 25%;
-  position: absolute;
-  top: 26%;
-  right: 13%;
-  z-index: 100;
-}
-
-@media screen and (max-width: 767px) {
-  .main-pic {
-    position: relative;
-    /* top: 13vh;
-    left: 14%; */
-    border-radius: 0;
-    width: 100%;
-  }
-
-  .main-logo {
-    border-radius: 50%;
-    width: 20%;
-    position: absolute;
-    top: 85%;
-    right: 1%;
-    z-index: 100;
-  }
+.developer {
+  width: 1.5rem;
 }
