@@ -8,14 +8,6 @@ body {
   font-size: 1.1rem;
 }
 
-/* h1.title {
-  z-index: 1000;
-  position: absolute;
-  top: 50%;
-  left: 38%;
-  color: white;
-} */
-
 h2 {
   margin-bottom: 10vh;
   font-size: 3.5rem;
@@ -35,51 +27,11 @@ a.nav-item {
   margin-right: 1vw;
 }
 
-/* header .overlay {
-  position: absolute;
-  top: 10%;
-  left: 0;
-  height: 121.6vh;
-  width: 100%;
-  background-color: black;
-  opacity: 0.2;
-  z-index: 1;
-} */
-
-/* @media screen and (min-width: 768px) and (max-width: 1024px) {
-  h1.title {
-    z-index: 1000;
-    position: absolute;
-    top: 10%;
-    left: 38%;
-    color: white;
-  }
-  header .overlay {
-    position: absolute;
-    top: 6.3%;
-    left: 0;
-    height: 42vh;
-    width: 100%;
-    background-color: black;
-    opacity: 0.2;
-    z-index: 1;
-  }
-} */
-
 .navbar {
   background-color: #88e0ef;
-  /* position: fixed;
-  z-index: 1000; */
   width: 100%;
   transition: all 0.5s ease-in-out;
 }
-
-/* @media screen and (min-width: 1024px) {
-  .navbar {
-    position: fixed;
-    z-index: 1000;
-  }
-} */
 
 .scroll {
   background-color: #3db2ff;
@@ -103,8 +55,6 @@ a.nav-item {
 @media screen and (max-width: 767px) {
   .main-pic {
     position: relative;
-    /* top: 13vh;
-    left: 14%; */
     border-radius: 0;
     width: 100%;
   }
@@ -139,6 +89,7 @@ a.nav-item {
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
 
+/* Instagram photos margin and size */
 a img:not(.logo):not(.developer) {
   width: 24%;
   margin: 0.2rem;
@@ -212,12 +163,6 @@ a:hover {
     padding: 1rem;
     width: 90%;
   }
-
-  /* .center-cards {
-    margin: auto;
-    padding: 1rem;
-    width: 75%;
-  } */
 
   a img:not(.logo):not(.developer) {
     width: 30%;
