@@ -79,6 +79,10 @@ a.nav-item {
   max-width: 100%;
 }
 
+.services-img {
+  max-width: 85%;
+}
+
 .about-us-description {
   line-height: 2;
   text-align: justify;
